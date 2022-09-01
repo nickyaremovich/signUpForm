@@ -4,9 +4,39 @@
     padding: 0;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: darkgray;
+    display: flex;
+    
+}
+.img-container {
+    display: flex;
 }
 
+.img-desc {
+    color: aliceblue;
+    position: absolute;
+    top: 640px;
+    left: 240px;
+}
+
+a {
+    color: aliceblue;
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    top: 80px;
+    left: 150px;
+}
