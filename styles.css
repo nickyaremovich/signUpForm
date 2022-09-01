@@ -15,7 +15,7 @@ body {
 .container{
     height: 80%;
     width: 80%;
-    background-color: darkgray;
+    background-color: lightgray;
     display: flex;
     
 }
@@ -39,4 +39,23 @@ a {
     width: 10%;
     top: 80px;
     left: 150px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-text {
+    padding: 40px;
+    line-height: 1.4em;
+}
+
+.form {
+    padding: 40px;
+}
+
+.button-area {
+    padding: 40px;
 }
